@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.uno, .dos, .tres, .cuatro, .cinco{
+    width: 100%;
+    min-width: 150px;
+    height: 150px;
+}
+.uno{
+    background-color: aqua;
+}
+.dos{
+    background-color: aquamarine;
+}
+.tres{
+    background-color: rgb(60, 148, 249);
+}
+.cuatro{
+    background-color: rgba(0, 255, 255, 0.424);
+}
+.cinco{
+    background-color: rgb(0, 115, 255);
+}
+
+/*@media (max-width: 660px){*/
+/*    .dos, .tres, .cuatro{*/
+/*        width: 50%;*/
+/*    }*/
+/*}*/
+
+/*
+@media (min-width: 800px){
+    .container{
+        width: 800px;
+        margin: auto;
+    }
+    .uno{
+        width: 60%;
+    }
+    .dos{
+        width: 40%;
+    }
+    .tres{
+        width: 32%;
+    }
+    .cuatro{
+        width: 20%;
+    }
+}*/
